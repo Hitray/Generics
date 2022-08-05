@@ -3,11 +3,11 @@ public class Main {
     public static void main(String[] args) {
 
         MagicBox<String> boxString = new MagicBox<>(5);
-        boxString.add("Яблоко");
-        boxString.add("Лампа");
-        boxString.add("Шарик");
-        boxString.add("Веник");
-        boxString.add("Кубик");
+        boxString.add("Мяч");
+        boxString.add("Стул");
+        boxString.add("Кофта");
+        boxString.add("Велосипед");
+        boxString.add("Печь");
         System.out.println(boxString.pick());
 
         MagicBox<Integer> boxInt = new MagicBox<>(6);
